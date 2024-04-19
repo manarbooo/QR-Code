@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #F0F8FF;
+}
+
+
+.p-1{
+    font-weight: bold;
+}
+
+.QR-CODE-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    width: 30%;
+    height: 90%;
+    border-radius: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+.caption{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;   
+}
+
+
+
+.QR-CODE-container .QR-CODE img{
+    width: 250px;
+    height: 250px;
+    border-radius: 0.5rem !important;
+}
+
+
+h3{
+    padding: 3rem 0 1rem 0;
+}
+
